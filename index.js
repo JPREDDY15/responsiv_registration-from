@@ -8,7 +8,7 @@ dotenv.config();
 const port=process.env.PORT||3000;
 const username=process.env.MONGODB_USERNAME;
 const password=process.env.MONGODB_PASSWORD;
-mongoose.connect(`mongodb+srv://jpreddy:jp3515@cluster0.00qtdnb.mongodb.net/registrationFromDB?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://jpreddy:jp3515@cluster0.00qtdnb.mongodb.net/registrationfromdb?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
